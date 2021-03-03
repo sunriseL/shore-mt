@@ -152,7 +152,7 @@ struct block {
     block_bits        _bits;
     block_list*     _owner;
     block*         _next;
-    char        _data[EMPTY_ARRAY_DIM];
+    char        _data[0];
 };
 
 
